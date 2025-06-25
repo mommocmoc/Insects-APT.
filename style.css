@@ -1,0 +1,179 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+body {
+  color: #000;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+.top-bar .menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.top-bar .date {
+  margin-top: 0.25rem;
+}
+
+/* Generic section spacing */
+section {
+  margin: 3rem auto;
+  width: min(90%, 1200px);
+}
+
+/* Gallery grid */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.5rem;
+}
+.grid-4 .item {
+  text-align: center;
+  font-size: 0.625rem;
+}
+.grid-4 .item.rotated img {
+  transform: rotate(-8deg);
+}
+.caption {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Gesture */
+.gesture {
+  text-align: center;
+}
+.gesture img {
+  width: 40vw;
+  max-width: 240px;
+}
+.gesture .caption {
+  font-size: 0.625rem;
+  margin-top: 0.5rem;
+}
+
+/* Birds pair */
+.grid-2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.grid-2 img {
+  width: 42vw;
+  max-width: 260px;
+}
+
+/* Arrow / Mosquito icon sections */
+.arrow-section,
+.mosquito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+.circle-icon {
+  width: 38vw;
+  max-width: 200px;
+}
+.small-caption {
+  font-size: 0.625rem;
+  max-width: 220px;
+}
+
+/* Footer banner */
+.footer-banner {
+  position: relative;
+  text-align: center;
+}
+.footer-banner img {
+  width: 60vw;
+  max-width: 350px;
+}
+.page-end {
+  font-size: 18vw;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.04);
+  margin-top: -5vw;
+  pointer-events: none;
+}
+.credits {
+  margin-top: 2rem;
+  font-size: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .gesture img {
+    width: 200px;
+  }
+  .grid-2 img {
+    width: 260px;
+  }
+  .circle-icon {
+    width: 200px;
+  }
+  .page-end {
+    font-size: 10vw;
+    margin-top: -3vw;
+  }
+}
+
+.caption {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+  /* font-family: "Diatype Semi-Mono Variable", sans-serif; */
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: 0;
+  display: inline-block;
+  font-variation-settings: 'slnt' 0, 'MONO' 0.5;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.4);
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.4);
+  padding: 0.4rem 0 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+}
