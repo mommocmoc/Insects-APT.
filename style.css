@@ -177,3 +177,22 @@ section {
   padding: 0.4rem 0 0.4rem 0.8rem;
   margin-top: 0.5rem;
 }
+
+/* Flying object animation */
+.flying-object {
+  position: fixed;
+  left: -60px;
+  width: 40px;
+  height: auto;
+  pointer-events: none;
+  animation: flyAcross 12s linear infinite;
+}
+
+@keyframes flyAcross {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(100vw + 60px));
+  }
+}
