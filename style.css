@@ -126,6 +126,51 @@ section {
   margin-inline: auto;
 }
 
+/* Image sizing inside gallery */
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+.modal-overlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+.modal-content {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  max-width: 90%;
+  width: 340px;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+#modalClose {
+  margin-top: 0.75rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
 /* Accessibility */
 .sr-only {
   position: absolute;
@@ -170,7 +215,8 @@ section {
   font-style: normal;
   line-height: 1.35;
   letter-spacing: 0;
-  display: inline-block;
+  display: block;
+  width: 100%;
   font-variation-settings: 'slnt' 0, 'MONO' 0.5;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.4);
   border-left: 0.1rem solid rgba(0, 0, 0, 0.4);

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Insects APT;</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header class="top-bar">
@@ -22,22 +23,22 @@
   <main>
     <!-- 1. Top insect gallery -->
     <section class="gallery grid-4">
-      <div class="item">
+      <button class="item" data-desc="This is Insect larva 01 – found in tropical regions and known for its vibrant patterns.">
         <img src="https://placehold.co/220x140?text=insect1" alt="Insect 1" />
         <span class="caption">Insect larva 01</span>
-      </div>
-      <div class="item">
+      </button>
+      <button class="item" data-desc="Insect larva 02 – a small species that thrives in humid environments.">
         <img src="https://placehold.co/80x140?text=insect2" alt="Insect 2" />
         <span class="caption">Insect larva 02</span>
-      </div>
-      <div class="item rotated">
+      </button>
+      <button class="item rotated" data-desc="Insect larva 03 – notable for its unique camouflage abilities.">
         <img src="https://placehold.co/110x190?text=insect3" alt="Insect 3" />
         <span class="caption">Insect larva 03</span>
-      </div>
-      <div class="item">
+      </button>
+      <button class="item" data-desc="Insect larva 04 – often seen in temperate zones and recognized for its wing shape.">
         <img src="https://placehold.co/300x120?text=insect4" alt="Insect 4" />
         <span class="caption">Insect larva 04</span>
-      </div>
+      </button>
     </section>
 
     <!-- 2. Gesture section -->
@@ -78,6 +79,13 @@
         <span>&copy; 2025</span>
       </footer>
     </section>
-  </main>
+    <!-- Modal overlay -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content">
+      <p id="modalText"></p>
+      <button id="modalClose">Close</button>
+    </div>
+  </div>
+</main>
 </body>
 </html>
