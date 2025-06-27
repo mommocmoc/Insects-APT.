@@ -3,82 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insects APT;</title>
+  <title>InsectsAPT.벌레아파트.</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" href="assets/favicon/favicon.ico" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
 </head>
 <body>
   <header class="top-bar">
-    <div class="brand">Insects APT; 벌레 아파트.</div>
+    <h3 class="brand">InsectsAPT.벌레아파트.</h3>
     <nav>
       <ul class="menu">
-        <li><a href="#">Species List (Korean & English)</a></li>
-        <li><a href="#">Common etc.</a></li>
+        <li><a href="#spring">Spring.봄.</a></li>
+        <li><a href="#summer">Summer.여름.</a></li>
+        <li><a href="#predator">Predator.포식자.</a></li>
+        <li><a href="#autumn-winter">Autumn.Winter.가을.겨울.</a></li>
+        <li><a href="#memo">Memo.메모.</a></li>
       </ul>
-      <div class="date">2025.06.25</div>
     </nav>
+    <div class="date">
+      <span id="date"></span>
+    </div>
+  </header>
+  <!-- Mobile header (hidden on desktop, shown on mobile) -->
+  <header class="mobile-bar">
+    <span class="brand">InsectsAPT</span>
   </header>
   <hr />
-
   <main>
-    <!-- 1. Top insect gallery -->
-    <section class="gallery grid-4">
-      <div class="item">
-        <img src="https://placehold.co/220x140?text=insect1" alt="Insect 1" />
+    <section id="spring" class="gesture">
+      <div class="top-bar">
+        <p class="section-title col-span-3">Spring.봄.</p>
+        <p class="section-desc start-8 col-span-6">따뜻한 봄철에 관찰한 곤충들입니다.</p>
+      </div>
+      </section>
+      <section class="gallery">
+      <div class="item img-w-25">
+        <img src="assets/insects/insects1.PNG" alt="Insect 1" />
         <span class="caption">Insect larva 01</span>
       </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects2.PNG" alt="Insect 2" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects3.PNG" alt="Insect 3" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects4.PNG" alt="Insect 4" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects5.PNG" alt="Insect 5" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects6.PNG" alt="Insect 6" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects7.PNG" alt="Insect 7" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+      <div class="item img-w-25">
+        <img src="assets/insects/insects8.PNG" alt="Insect 8" />
+        <span class="caption">Insect larva 01</span>
+      </div>
+    </section>
+
+    <section id="summer" class="gesture">
+      <div class="top-bar">
+      <p class="section-title col-span-3">Summer.여름.</p>
+      <p class="section-desc start-8 col-span-6">더운 여름에 관찰할 예정입니다.</p>
+    </div>
+    </section>
+    <section class="gallery">
       <div class="item">
-        <img src="https://placehold.co/80x140?text=insect2" alt="Insect 2" />
-        <span class="caption">Insect larva 02</span>
-      </div>
-      <div class="item rotated">
-        <img src="https://placehold.co/110x190?text=insect3" alt="Insect 3" />
-        <span class="caption">Insect larva 03</span>
-      </div>
-      <div class="item">
-        <img src="https://placehold.co/300x120?text=insect4" alt="Insect 4" />
-        <span class="caption">Insect larva 04</span>
+        <img src="" alt="Data Collecting..." />
+        <span class="caption"></span>
       </div>
     </section>
 
-    <!-- 2. Gesture section -->
-    <section class="gesture">
-      <h2 class="sr-only">Gesture</h2>
-      <img src="https://placehold.co/200x300?text=HAND" alt="Gesture hand silhouette" />
-      <p class="caption">
-        Gesture for search and swap
-      </p>
+    <section id="predator" class="gesture">
+      <div class="top-bar">
+        <p class="section-title col-span-3">Predator.포식자.</p>
+        <p class="section-desc start-8 col-span-6">포식자들입니다.</p>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="item img-w-50">
+        <img src="assets/predators/predator1.PNG" alt="Predator 1" />
+        <span class="caption">But, eating a fish.하지만, 물고기를 잡아먹는 중이다.</span>
+      </div>
     </section>
 
-    <!-- 3. Birds pair -->
-    <section class="birds grid-2">
-      <img src="https://placehold.co/260x180?text=bird1" alt="Bird 1" />
-      <img src="https://placehold.co/260x180?text=bird2" alt="Bird 2" />
+    <section id="autumn-winter" class="gesture">
+      <div class="top-bar">
+        <p class="section-title col-span-3">Autumn.Winter.가을.겨울.</p>
+        <p class="section-desc start-8 col-span-6">가을과 겨울에 관찰할 곤충들입니다.</p>
+      </div>
+      <img class="circle-icon" src="" alt="Maybe collect data later..." />
     </section>
 
-    <!-- 4. Arrow / icon section -->
-    <section class="arrow-section">
-      <img class="circle-icon" src="https://placehold.co/200x200?text=icon" alt="Arrow Icon" />
-      <p class="small-caption">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-    </section>
-
-    <!-- 5. Mosquito smaller section -->
-    <section class="mosquito">
+    <section id="memo" class="gesture">
+      <div class="top-bar">
+        <p class="section-title col-span-3">Memo.메모.</p>
+        <p class="section-desc start-6 col-span-8">New things.새롭게 알게된 사실들, 생각들, 자료들.</p>
+      </div>
+      </section>
+      <section class="gallery">
       <img class="circle-icon" src="https://placehold.co/200x200?text=icon" alt="Arrow Icon" />
       <p class="small-caption">Some reflective subtext etc. 1:29</p>
     </section>
 
     <!-- 6. Footer banner with big mosquito and title -->
     <section class="footer-banner">
-      <img src="https://placehold.co/350x220?text=mosquito" alt="Mosquito large" />
       <h1 class="page-end">Insects APT.</h1>
       <footer class="credits">
-        <a href="#">Email</a>
-        <span>&copy; 2025</span>
+        <a href="mailto:hey@cowcowwow.kr">Email</a>
+        <span>&copy; 2025 Studio Cowcowwow </span>
       </footer>
     </section>
   </main>
-<script src="script.js"></script>
+  <!-- Mobile footer (hidden on desktop, shown on mobile) -->
+  <footer class="mobile-credits">
+    <nav>
+      <ul class="mobile-menu">
+        <li><a href="#spring">Spring.봄.</a></li>
+        <li><a href="#summer">Summer.여름.</a></li>
+        <li><a href="#predator">Predator.포식자.</a></li>
+        <li><a href="#autumn-winter">Autumn.가을.겨울.</a></li>
+        <li><a href="#memo">Memo.메모.</a></li>
+      </ul>
+    </nav>
+    <a href="mailto:hey@cowcowwow.kr">Email</a>
+    <span>&copy; 2025 Studio Cowcowwow </span>
+  </footer>
+  <!-- Scripts -->
+<script src="flyingObject.js"></script>
+<script src="clock.js"></script>
 </body>
 </html>
