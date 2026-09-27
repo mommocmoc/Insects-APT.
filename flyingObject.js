@@ -136,6 +136,7 @@ class FlyingObject {
 //   scale: 1
 // });
 
-// Example for a second different object
-new FlyingObject({ src: 'assets/insects/insects2.PNG', speed: 8, rotationSpeed: 1, scale: 1.5 });
-new FlyingObject({ src: 'assets/predators/predator1.PNG', speed: 8, rotationSpeed: 3, scale: 3 });
+new FlyingObject({ src: 'assets/insects/cutout/insects2.webp', speed: 8, rotationSpeed: 1, scale: 1.5 });
+new FlyingObject({ src: 'assets/predators/cutout/predator1.webp', speed: 8, rotationSpeed: 3, scale: 3 });
+
+
