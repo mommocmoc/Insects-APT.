@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (footnoteLink && item.source_url) {
           footnoteLink.href = item.source_url;
           footnoteLink.textContent =
-            '[1] 출처: ' + (item.source_title || '참지자룈') + ' ↗';
+            '[1] 출처: ' + (item.source_title || '참고자료') + ' ↗';
         } else if (footnoteLink) {
           footnoteLink.textContent = '';
           footnoteLink.removeAttribute('href');
