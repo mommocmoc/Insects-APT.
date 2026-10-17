@@ -976,6 +976,22 @@
     "comment": null
   },
   {
+    "id": "insect_20261017_173841_IMG_5360",
+    "season": "Autumn",
+    "korean_name": "아기늪서성거미 (서성거미류)",
+    "english_name": "Nursery Web Spider (Pisaura lama)",
+    "korean_short": "아기늪서성거미",
+    "english_short": "Nursery Web Spider",
+    "date": "2026.10.17",
+    "cutout_src": "assets/insects/cutout/insect_20261017_173841_IMG_5360.webp",
+    "original_src": "assets/insects/original/insect_20261017_173841_IMG_5360.webp",
+    "one_line_desc": "외벽에서 앞다리를 모아 곧게 뻗은 채 휴식 중인 아기늪서성거미",
+    "fun_fact": "닷거미과의 서성거미류는 쉴 때 앞의 1, 2번 다리 쌍을 앞으로 나란히 곧게 모아 뻗는 독특한 휴식 자세를 취하며, 나뭇가지나 잎맥과 일치시켜 완벽한 위장 효과를 냅니다.",
+    "source_title": "국립생물자원관: 아기늪서성거미 (Pisaura lama)",
+    "source_url": "https://species.nibr.go.kr",
+    "comment": null
+  },
+  {
     "id": "predator1",
     "season": "Predator",
     "korean_name": "백로 (포식자)",
