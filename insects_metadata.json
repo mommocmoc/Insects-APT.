@@ -986,9 +986,9 @@
     "cutout_src": "assets/insects/cutout/insect_20261017_173841_IMG_5360.webp",
     "original_src": "assets/insects/original/insect_20261017_173841_IMG_5360.webp",
     "one_line_desc": "외벽에서 앞다리를 모아 곧게 뻗은 채 휴식 중인 아기늪서성거미",
-    "fun_fact": "닷거미과의 서성거미류는 쉴 때 앞의 1, 2번 다리 쌍을 앞으로 나란히 곧게 모아 뻗는 독특한 휴식 자세를 취하며, 나뭇가지나 잎맥과 일치시켜 완벽한 위장 효과를 냅니다.",
-    "source_title": "국립생물자원관: 아기늪서성거미 (Pisaura lama)",
-    "source_url": "https://species.nibr.go.kr",
+    "fun_fact": "서성거미속(Pisaura)은 진화행동생태학계의 전설적인 연구 모델입니다.<br><br>① <strong>빈 상자 사기극 (가짜 혼수선물)</strong>: 수컷은 짝짓기 중 암컷에게 먹히지 않으려 먹이를 실로 포장한 선물(Nuptial gift)을 바치는데, 먹이가 부족하면 빈 껍데기나 나뭇가지를 실로 꽁꽁 싼 <em>\"가짜 선물(Worthless gift)\"</em>을 주어 암컷이 포장을 뜯는 동안 번개같이 짝짓기를 완수합니다. (<a href=\"https://doi.org/10.1186/1471-2148-11-329\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: inherit;\">Albo et al., 2011 BMC Evol Biol 논문 ↗</a>)<br><br>② <strong>죽은 척(Thanatosis) 트로이 목마</strong>: 사나운 암컷 앞에서는 다리를 곧게 뻗고 시체처럼 굳는 '죽은 척' 상태로 선물에 매달려 끌려간 뒤, 암컷이 식사를 시작하면 부활해 교미를 성공시킵니다. (<a href=\"https://doi.org/10.1098/rsbl.2005.0392\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: inherit;\">Bilde et al., 2006 Royal Society Bio Lett 논문 ↗</a>)<br><br>③ <strong>다리 8개를 4개로 줄이는 위장술 & 자절(Autotomy)</strong>: 쉴 때는 1·2번 다리 쌍을 앞뒤로 완벽히 포개어 다리 4개의 나뭇가지처럼 위장합니다. 천적에게 붙잡히면 관절의 체액 밸브를 닫고 스스로 다리를 떼어낸 뒤 다음 탈피 때 완벽히 재생합니다.",
+    "source_title": "국립생물자원관 & BMC Evol Biol (Albo 2011) / Royal Society (Bilde 2006)",
+    "source_url": "https://doi.org/10.1186/1471-2148-11-329",
     "comment": null
   },
   {

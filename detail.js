@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (funfactBox && funfactText) {
       if (item.fun_fact) {
         funfactBox.style.display = 'block';
-        funfactText.textContent = item.fun_fact;
+        funfactText.innerHTML = item.fun_fact;
         if (footnoteLink && item.source_url) {
           footnoteLink.href = item.source_url;
           footnoteLink.textContent =
