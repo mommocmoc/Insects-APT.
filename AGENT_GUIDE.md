@@ -49,11 +49,11 @@ Generate a clean JSON array in `insects_metadata.json` where each item follows t
 }
 ```
 
-> ⚠️ **[CRITICAL] 출처(Source) 및 펀팩트 작성 엄격 원칙 (절대 준수)**:
-> 1. **도메인 메인 주소 기재 금지:** 기관이나 포털의 메인 홈 주소(예: `https://species.nibr.go.kr`, `https://www.nongsaro.go.kr`, `https://www.nature.go.kr` 등)를 무성의하게 거는 행위는 엄격히 금지합니다.
-> 2. **실질 검증 가능한 직링크 매핑:** 해당 펀팩트 내용이 실제로 기술되어 있는 **학술 논문 DOI(`https://doi.org/...`), 구체적 연구 보고서 웹페이지 직링크, 또는 위키백과의 해당 종 개별 문서 직링크**를 연결해야 합니다.
-> 3. **검증 링크 부재 시 처리:** 검증 가능한 구체적 직링크를 즉시 확보하지 못한 경우, 가짜 URL이나 도메인 홈을 넣지 말고 `source_url`과 `source_title`을 빈 문자열(`""`)로 둡니다. (UI에서 깔끔하게 본문만 노출됨)
-> 4. **학술 연구 팩트 우선:** 뻔한 상식보다는 논문·학술 연구로 밝혀진 행동생태학적 반전이나 생체역학 메커니즘을 펀팩트로 작성합니다.
+> ⚠️ **[CRITICAL] 펀팩트(Fun Fact) 및 출처 엄격 원칙 (절대 준수)**:
+> 1. **무근거 펀팩트 금지 (펀팩트 자체 비움 원칙):** 확실하고 구체적인 연구 논문(DOI), 공인 학술 보고서, 또는 신뢰할 수 있는 개별 검증 문서가 없다면 **`fun_fact`, `source_title`, `source_url`을 모두 빈 문자열(`""`)로 둡니다.** 억지로 말을 지어내거나 일반 상식을 적당히 포장해 펀팩트 칸을 채우지 않습니다.
+> 2. **펀팩트가 있다면 출처 직링크는 필수 (1:1 페어):** `fun_fact`가 존재한다면 반드시 해당 사실을 직접 확인할 수 있는 **실제 학술 논문 DOI(`https://doi.org/...`), 구체적 연구 보고서 웹페이지 직링크, 또는 해당 종 상세 문서 직링크**가 1:1로 함께 기재되어야 합니다. (출처 없는 펀팩트는 존재할 수 없음)
+> 3. **도메인 메인 주소 기재 금지:** 기관이나 포털의 메인 홈 주소(예: `https://species.nibr.go.kr`, `https://www.nongsaro.go.kr`, `https://www.nature.go.kr` 등)를 출처 링크로 거는 행위는 엄격히 금지합니다.
+> 4. **학술 연구 팩트 우선:** 뻔한 외형 설명 대신 논문·생체역학·행동생태학 연구로 규명된 흥미로운 발견을 우선 발굴합니다.
 
 ### Step C: Sync Gallery (`index.html`) & Detail View (`detail.html`)
 1. Update the header title, subtitle, and section headings in `index.html` to match the user's `<[Blank] APT>` theme.
